@@ -7,6 +7,7 @@
 .contenu1{
   display: flex;
   flex-direction: row;
+  height: 700px;
 }
 
 
@@ -14,12 +15,13 @@
 .leftside{
   text-align: left;
   margin-left: 100px;
+  margin-top: 60px;
 
 }
 
 .rightside{
   margin-right: 125px;
-  margin-top: 22px;
+  margin-top: 82px;
 }
 
 h2{
@@ -64,7 +66,7 @@ ul {
 }
 
 .contenu2{
-  background-color: #368F8B;
+  background-color: #168699;
   height: 340px;
   width: 100%;
   padding-right: 16px;
@@ -103,10 +105,12 @@ padding-bottom: 25px;
 }
 
 .share2{
-
+  position: relative;
+  left: 53px
 
 }
 
 .share3{
-
+  position: relative;
+  left: 136px;
 }
