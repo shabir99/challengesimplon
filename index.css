@@ -8,6 +8,20 @@ body {
   margin: 0;
 }
 
+.title{
+  position: absolute;
+  z-index: 15;
+  left: 116px;
+  top: -7px;
+  font-size: 29px;
+  line-height: 39px;
+  font-weight: 500;
+  color: #020621;
+  text-decoration: none;
+ flex-shrink: 0;
+ overflow: hidden;
+ }
+
 a,a:hover  {
   text-decoration: none;
 }
@@ -17,7 +31,8 @@ a,a:hover  {
 
 .ban {
    background-color: #C6C7BA;
-  height:  720px;
+  height:  791px;
+  position: relative;
 }
 .menu {
   height:70px;
@@ -47,11 +62,11 @@ button {
 }
 
 .btn-info:hover {
-  
+
 }
 
 .btn-default {
-  
+
 }
 
 .container-fluid {
@@ -172,7 +187,7 @@ button {
 
 
 
-/* CONTENUE */ 
+/* CONTENUE */
 
 .contenu1{
   display: flex;
@@ -236,6 +251,7 @@ ul {
 }
 
 .contenu2{
+  color: white;
   background-color: #168699;
   height: 340px;
   width: 100%;
