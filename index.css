@@ -11,16 +11,22 @@ body {
 .title{
   position: absolute;
   z-index: 15;
-  left: 116px;
+  left: 66px;
   top: -7px;
-  font-size: 29px;
+  font-size: 40px;
   line-height: 39px;
   font-weight: 500;
-  color: #020621;
+  
   text-decoration: none;
  flex-shrink: 0;
  overflow: hidden;
+ font-family: 'Baloo Da', cursive;
  }
+
+ .user {
+   color: #168699;
+ }
+
 
 a,a:hover  {
   text-decoration: none;
